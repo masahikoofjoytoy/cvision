@@ -56,11 +56,11 @@ type AnalyzeResult struct {
 
 const (
 	VisionUrl          = "https://southeastasia.api.cognitive.microsoft.com/vision/v1.0/analyze?"
-	VisionAccessKey    = "2cd669333bc04623a126161cdd2ade75"
+	VisionAccessKey    = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 	TranslateUrl       = "https://api.microsofttranslator.com/v2/http.svc/Translate?"
 	TokenUrl           = "https://api.cognitive.microsoft.com/sts/v1.0/issueToken"
-	TranslateAccessKey = "45201519841f4367817b8d0128165118"
-	ResultFile         = "/home/hasegawa-ma/computerVision/sample/static/result.jpg"
+	TranslateAccessKey = "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY"
+	ResultFile         = "/path/to/static/result.jpg"
 )
 
 func main() {
